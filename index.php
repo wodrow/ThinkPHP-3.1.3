@@ -1,5 +1,7 @@
 <?php
 define('APP_DEBUG', true);
+define('SOURCE_ROOT', dirname(__FILE__));
+define('STATOC_ROOT', SOURCE_ROOT.'/Static');
 //定义项目名称
 define('APP_NAME', 'App');
 //定义项目路径
